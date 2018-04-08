@@ -1,0 +1,169 @@
+____________________________________________________
+Total false number: 964
+____________________________________________________
+Unfavor List:
+Ningxia University: 102
+Fudan University: 91
+Jiangnan University: 72
+Nankai University: 62
+Nanchang University: 56
+Shandong University: 51
+Zhengzhou University: 48
+Chang’an University: 35
+Jinan University: 33
+Liaoning University: 31
+Tsinghua University: 29
+Huazhong Normal University: 25
+Fuzhou University: 24
+Yanbian University: 23
+Lanzhou University: 23
+Jilin University: 23
+Donghua University: 23
+Chongqing University: 20
+Tibet University: 17
+Anhui University: 17
+Huazhong Agricultural University: 16
+East China Normal University: 16
+Sichuan Agricultural University: 10
+Shihezi University: 10
+Taiyuan University of Technology: 9
+Huazhong University of Science and Technology: 9
+South China Normal University: 8
+East China University of Science and Technology: 8
+the National University of Defense Technology: 7
+Xinjiang University: 7
+Shanghai University of Finance and Economics: 7
+Suzhou University: 6
+Beijing Foreign Studies University: 6
+Zhongnan University of Economics and Law: 5
+Yunnan University: 5
+Communication University of China: 5
+Xiamen University: 4
+Renmin University of China: 4
+the Fourth Military Medical University: 3
+Hefei University of Technology: 3
+Southeast University: 2
+Beijing Normal University: 2
+the University of International Business and Economics: 1
+Southwest University: 1
+Northwestern University: 1
+Northwest Agriculture and Forestry University: 1
+National Defense Science and Technology University: 1
+Beijing Forestry University: 1
+Beihang University: 1
+____________________________________________________
+Favor List:
+Zhengzhou University: 34
+Nanchang University: 33
+Donghua University: 33
+Nankai University: 32
+Hainan University: 29
+Tsinghua University: 28
+Renmin University of China: 28
+Jiangnan University: 28
+Yanbian University: 27
+Nanjing University: 27
+Shanghai Jiaotong University: 26
+Beijing Jiaotong University: 21
+Shandong University: 19
+Fudan University: 19
+Chongqing University: 19
+Shanghai University: 18
+Jinan University: 18
+Guizhou University: 17
+Xiamen University: 16
+Tibet University: 16
+Qinghai University: 16
+Communication University of China: 16
+Wuhan University: 15
+Ningxia University: 15
+Hebei University of Technology: 14
+Beijing Foreign Studies University: 14
+Xi’an Jiaotong University: 13
+Suzhou University: 13
+Jilin University: 13
+Zhejiang University: 12
+Tongji University: 12
+Tianjin University: 12
+Northwestern University: 12
+Chang’an University: 12
+Southwestern University: 8
+Southwest Jiaotong University: 8
+Sichuan University: 8
+Peking University: 8
+Northwest Agriculture and Forestry University: 8
+Nanjing University of Aeronautics and Astronautics: 8
+Hefei University of Technology: 8
+China University of Geosciences: 8
+North China Electric Power University: 7
+Anhui University: 7
+Xinjiang University: 6
+Sun Yat-sen University: 6
+Shihezi University: 6
+Ocean University of China: 6
+Northwestern University of Technology: 6
+Nanjing University of Technology: 6
+Nanjing Agricultural University: 6
+Fuzhou University: 6
+Dalian Maritime University: 6
+Beijing University of Technology: 6
+Shanghai University of Finance and Economics: 5
+Northeastern University: 5
+Hohai University: 5
+Central South University: 5
+Zhongnan University of Economics and Law: 4
+Southeast University: 4
+Shanghai International Studies University: 4
+National University of Defense Technology: 4
+Lanzhou University: 4
+Harbin Institute of Technology: 4
+Guangxi University: 4
+China Agricultural University: 4
+Central University of Finance and Economics: 4
+Beijing University of Posts and Telecommunications: 4
+Beijing Sports University: 4
+Beihang University: 4
+Yunnan University: 3
+Xidian University: 3
+Tianjin Medical University: 3
+Southwestern University of Finance and Economics: 3
+Southwest University: 3
+South China University of Technology: 3
+Sichuan Agricultural University: 3
+Liaoning University: 3
+Inner Mongolia University: 3
+Hunan University: 3
+Huazhong Agricultural University: 3
+China Ocean University: 3
+Beijing University of Aeronautics and Astronautics: 3
+Beijing Institute of Technology: 3
+Beijing Forestry University: 3
+Zhongshan University: 2
+Wuhan University of Technology: 2
+Northeast Forestry University: 2
+Northeast Agricultural University: 2
+Nanjing Normal University: 2
+Dalian University of Technology: 2
+China University of Petroleum: 2
+China University of Mining and Technology: 2
+China Pharmaceutical University: 2
+Beijing University of Chemical Technology: 2
+University of Science and Technology of China: 1
+University of International Business and Economics: 1
+University of Electronic Science and Technology: 1
+Taiyuan University of Technology: 1
+Second Military Medical University: 1
+Hunan Normal University: 1
+Huazhong University of Science and Technology: 1
+Harbin Engineering University: 1
+Fourth Military Medical University: 1
+East China University of Science and Technology: 1
+China University of Science and Technology: 1
+China University of Political Science and Law: 1
+China University of Mining: 1
+China Petroleum University: 1
+Central University for Nationalities: 1
+Beijing Normal University: 1
+____________________________________________________
+Unbiased List:
+set(['Foreign Economic and Trade University', 'Chinese Pharmaceutical University', 'University of Defense Science and Technology', 'East China University of Technology', 'National University of Defense Science and Technology', 'Southwestern University of Finance', 'Beijing University of Chinese Medicine', 'Central Conservatory of Music', 'Northeast Normal University', 'Northwestern Polytechnical University', 'The Central Conservatory of Music', 'The Fourth Military Medical University', 'China University of Political Science and Technology', 'Shaanxi Normal University', 'Beijing University of Science and Technology', 'The University of International Business and Economics'])
