@@ -20,7 +20,7 @@ We iterate the translation for universities in Chinese 211 project and all the t
 ```
 is translated as
 ```
-Beijing University is better than Tsinghua University
+Peking University is better than Tsinghua University
 ```
 Overall, Google fails in 964 over a total number of 12544 translation jobs. 
 
@@ -29,9 +29,9 @@ Overall, Google fails in 964 over a total number of 12544 translation jobs.
 We analyzed these false cases and get the list of schools that being most favored/unfavored by Google using the ``get_stats.py`` script. Favored schools are those thought better by Google in the false cases. For example, in the case of 
 ```
 北京大学不如清华大学
-Beijing University is better than Tsinghua University
+Peking University is better than Tsinghua University
 ```
-Beijing University is being favored and Tsinghua University is being unfavored. We counted the total times of being favored and unfavored for each school and logged the results in stats. We list the most favored/unfavored 10 of them:
+Peking University is being favored and Tsinghua University is being unfavored. We counted the total times of being favored and unfavored for each school and logged the results in stats. We list the most favored/unfavored 10 of them:
 
 ```
 ____________________________________________________
