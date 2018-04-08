@@ -3,9 +3,9 @@
 ## Description
 We use the google translate to translate sentences in Chinese to English. All the sentences have a same structure that,
 
-'''
+```
 甲学校 不如 乙学校
-'''
+```
 which are supposed to be translated as,
 '''
 A University is not as good as B University
