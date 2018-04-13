@@ -121,7 +121,7 @@ We applied Topological Sort (``topo_sort.py``)on the rest nodes but we found cyc
 [南京大学]，
 [中国海洋大学]，
 [武汉大学]，
-[中国地质大学]]，
+[中国地质大学]，
 [中山大学]，
 [海南大学]，
 [西南交通大学]，

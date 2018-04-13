@@ -31,7 +31,7 @@ while True:
 				else:
 					graph[u2] = [u1]
 # print graph
-print self_not_contain
+print "The Google Ranking of Universities:"
 print tarjan(graph)
  
 
