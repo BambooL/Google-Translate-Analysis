@@ -92,4 +92,90 @@ We also noticed that Google always translates with no bias for schools as listed
 
 (We did alias analysis mannually and quickly, this report is not 100% accurate. Please correct me if there are any mistakes.)
 
+### Topological Sort Ranking
+
+We can view the translation result as a directed graph. We only add adges this graph when the Google Translate is self-contained. There are some counter-examples that have being filted out, such as
+
+```
+南开大学不如中国人民大学
+Nankai University is better than Renmin University of China
+中国人民大学不如南开大学
+Renmin University of China is better than Nankai University
+```
+
+We applied Topological Sort (``topo_sort.py``)on the rest nodes but we found cycles in this graph. Therefore, we adopted the Tarjan algorithm for help (see more about [Tarjan](https://github.com/bwesterb/py-tarjan)). We document the ranking for the related universities as follows.
+
+```
+[北京交通大学]，
+[天津大学]，
+[河北工业大学]，
+[东北大学]，
+[大连海事大学]，
+[同济大学]，
+[上海交通大学]，
+[南京农业大学]，
+[浙江大学]，
+[中国人民大学]，
+[北大]，
+[上海大学]，
+[南京大学]，
+[中国海洋大学]，
+[武汉大学]，
+[中国地质大学]]，
+[中山大学]，
+[海南大学]，
+[西南交通大学]，
+[贵州大学]，
+[西北大学]，
+[西安交通大学]，
+[新疆大学]，
+[南京航空航天大学]，
+[西南大学]，
+[青海大学]，
+[重庆大学]，
+[西北工业大学]，
+[西安电子科技大学]，
+[西北农林大学]，
+[四川大学]，
+[西南大学]，
+[中南大学]，
+[国防科技大学]，
+[广西大学]，
+[北航大学]，
+[中国科技大学]，
+[中国石油大学]，
+[中南财经政法大学]，
+[西南财经大学]，
+[兰州大学]，
+[上海外国语大学]，
+[南京工业大学]，
+[中国矿业大学]，
+[河海大学]，
+[中国药科大学]，
+[南京师范大学]，
+[中国石油大学]，
+[武汉理工大学]，
+[湖南大学]，
+[湖南师范大学]，
+[华南理工大学]，
+[四川农业大学]，
+[云南大学]，
+[哈尔滨工业大学]，
+[中国海洋大学]，
+[华中科技大学，东南大学，福州大学，合肥工业大学，苏州大学，华中农业大学，长安大学，厦门大学， 北京外国语大学，石河子大学，宁夏大学，西藏大学，暨南大学，郑州大学，山东大学，南昌大学，延边大学，清华大学，安徽大学，江南大学，东华大学，复旦大学，吉林大学，南开大学]
+[华东理工大学]，
+[北京林业大学]，
+[华南师范大学]，
+[国防科技大学]，
+[第四军医大学]，
+[北京师范大学]，
+[华东师范大学]，
+[太原理工大学]，
+[上海财经大学]，
+[国防科技大学]，
+[中山大学]，
+[辽宁大学]，
+[对外经济贸易大学]，
+[华中师范大学]
+```
 
