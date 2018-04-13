@@ -20,7 +20,7 @@ We iterate the translation for universities in Chinese 211 project and all the t
 ```
 is translated as
 ```
-Beijing University is better than Tsinghua University
+Peking University is better than Tsinghua University
 ```
 Overall, Google fails in 964 over a total number of 12544 translation jobs. 
 
@@ -29,55 +29,55 @@ Overall, Google fails in 964 over a total number of 12544 translation jobs.
 We analyzed these false cases and get the list of schools that being most favored/unfavored by Google using the ``get_stats.py`` script. Favored schools are those thought better by Google in the false cases. For example, in the case of 
 ```
 北京大学不如清华大学
-Beijing University is better than Tsinghua University
+Peking University is better than Tsinghua University
 ```
-Beijing University is being favored and Tsinghua University is being unfavored. We counted the total times of being favored and unfavored for each school and logged the results in stats. We list the most favored/unfavored 10 of them:
+Peking University is being favored and Tsinghua University is being unfavored. We counted the total times of being favored and unfavored for each school and logged the results in stats. We list the most favored/unfavored 10 of them:
 
 ```
 ____________________________________________________
 Unfavor List:
-Ningxia University: 102
-Fudan University: 91
-Jiangnan University: 72
-Nankai University: 62
-Nanchang University: 56
-Shandong University: 51
-Zhengzhou University: 48
-Chang’an University: 35
-Jinan University: 33
-Liaoning University: 31
-Tsinghua University: 29
-Huazhong Normal University: 25
-Fuzhou University: 24
-Yanbian University: 23
-Lanzhou University: 23
-Jilin University: 23
-Donghua University: 23
-Chongqing University: 20
-Tibet University: 17
-Anhui University: 17
+宁夏大学：102
+复旦大学：91
+江南大学：72
+南开大学：62
+南昌大学：56
+山东大学：51
+郑州大学：48
+长安大学：35
+暨南大学：33
+辽宁大学：31
+清华大学：29
+华中师范大学：25
+福州大学：24
+延边大学：23
+兰州大学：23
+吉林大学：23
+东华大学：23
+重庆大学：20
+西藏大学：17
+安徽大学：17
 ____________________________________________________
 Favor List:
-Zhengzhou University: 34
-Nanchang University: 33
-Donghua University: 33
-Nankai University: 32
-Hainan University: 29
-Tsinghua University: 28
-Renmin University of China: 28
-Jiangnan University: 28
-Yanbian University: 27
-Nanjing University: 27
-Shanghai Jiaotong University: 26
-Beijing Jiaotong University: 21
-Shandong University: 19
-Fudan University: 19
-Chongqing University: 19
-Shanghai University: 18
-Jinan University: 18
-Guizhou University: 17
-Xiamen University: 16
-Tibet University: 16
+郑州大学：34
+南昌大学：33
+东华大学：33
+南开大学：32
+海南大学：29
+清华大学：28
+中国人民大学：28
+江南大学：28
+延边大学：27
+南京大学：27
+上海交通大学：26
+北京交通大学：21
+山东大学：19
+复旦大学：19
+重庆大学：19
+上海大学：18
+暨南大学：18
+贵州大学：17
+厦门大学：16
+西藏大学：16
 ____________________________________________________
 Total false number: 964
 
@@ -87,7 +87,7 @@ Total false number: 964
 
 We also noticed that Google always translates with no bias for schools as listed:
 ```
-['Foreign Economic and Trade University', 'Chinese Pharmaceutical University', 'University of Defense Science and Technology', 'East China University of Technology', 'National University of Defense Science and Technology', 'Southwestern University of Finance', 'Beijing University of Chinese Medicine', 'Central Conservatory of Music', 'Northeast Normal University', 'Northwestern Polytechnical University', 'The Central Conservatory of Music', 'The Fourth Military Medical University', 'China University of Political Science and Technology', 'Shaanxi Normal University', 'Beijing University of Science and Technology', 'The University of International Business and Economics']
+“北京中医药大学“，”中央音乐学院“，”东北师范大学“，“陕西师范大学”，“北京科技大学”
 ```
 
 (We did alias analysis mannually and quickly, this report is not 100% accurate. Please correct me if there are any mistakes.)
